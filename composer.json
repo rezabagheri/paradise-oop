@@ -1,0 +1,21 @@
+{
+    "name": "reza/paradise",
+    "description": "OOP template for WordPress",
+    "type": "library",
+    "license": "GPL3",
+    "authors": [
+        {
+            "name": "Reza Bagheri (Rezo)",
+            "email": "rezabagheri@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "5.0.0-alpha1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./config"
+        }
+    }
+}
